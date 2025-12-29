@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Environnement virtuel
+venv/
+env/
+.env
+
+# AWS & Secrets (Sécurité absolue)
+.aws/
+credentials
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# Note : Le sujet demande explicitement de versionner model.pkl, donc on ne l'ignore pas ici.
